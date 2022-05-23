@@ -1,0 +1,90 @@
+@import url(../style\ressources.css);
+
+.wiki {
+    width: 28%;
+    height: 66.5%;
+
+    border-radius: 5px;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 85%;
+    top: 350px;
+}
+@media screen and (max-width:1247px){
+embed{
+    height: 250px;
+}
+.wiki{
+    display: none;
+} 
+.instru img{
+    margin-left:8%;
+}
+}
+@media screen and (max-width:451px){
+    .instru img{
+        margin-left: 0%;
+    }
+}
+
+
+.contenair-produit {
+    width: 100%;
+    height: auto;
+    display: block;
+    background: linear-gradient(to bottom, #3a1d15, #824838c9, #731C24, #A91C2B, #D21C31);
+
+    background-image: url(../images/fond_instruments.svg);
+}
+
+.instru {
+    width: 80%;
+    height: auto;
+    padding: 60px 0 60px 10%;
+
+}
+
+.instru h1 {
+    text-align: center;
+    font-family: 'GreatVibes';
+    font-size: calc(4vw + 20px);
+    font-weight: 400;
+    text-shadow: 2px 2px 5px black;
+    background-color: rgba(250, 235, 215, 0.259);
+    margin-bottom: 25px;
+    padding: 15px 0;
+    border-radius: 10px;
+    border: 4px solid #51291E;
+}
+
+.instru img {
+    width: 85%;
+    max-width: 65em;
+    min-width: 13em;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.24) 0px 1px 6px;
+    margin-bottom: 50px;
+    padding-left: 0%;
+}
+
+figcaption {
+    font-family: 'RobotoSlab';
+    font-size: calc(3vw + 18px) ;
+    text-align: center;
+    background-color: rgba(250, 235, 215, 0.259);
+    margin-bottom: 5px;
+    padding: 15px 0;
+    border-radius: 10px;
+    border: 3px solid #51291E;
+}
+
+.instru p {
+    font-family: 'Nunito';
+    font-size: calc(2vw + 8px);
+    text-align: justify;
+    background-color: rgba(250, 235, 215, 0.259);
+    border-radius: 10px;
+    padding: 11px;
+    border: 3px solid #51291E;
+}

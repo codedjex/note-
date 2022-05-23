@@ -1,0 +1,132 @@
+#presentation {
+    position: relative;
+
+    background: url(../picture/fond-presentation-index.jpg) bottom;
+    background-size: cover;
+    height: calc(100vh - 157px);
+}
+
+.bulle{
+    transition: .7s ease-in-out;
+    position: relative;
+    width:94px;
+    height: auto;
+    border-radius: 20px;
+    
+}
+.fa-solid{
+    position: absolute;
+    cursor: pointer;
+    color: white;  
+    margin-top: 60vh;
+    background-color: rgb(112, 0, 0);
+    font-size: 30px;
+    margin-left: 5px;
+    transition: .7s ease-in-out; 
+    border-radius: 20px;
+}
+.fa-circle-xmark{
+    opacity: 0;
+}
+
+.fa-circle-xmark_open{
+   opacity: 1;
+   transform: rotate(1080deg);
+    transition-duration: 0.7s;
+}
+
+.texte-titre{
+    margin: 7% 0;
+    position: absolute;
+    width: 100%;
+    font-family:'sans-serif';
+}
+.titre{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+.titre::before, .titre::after{
+    content: "";
+    height: 2px;
+    width: 20%;
+    
+}
+.titre::before{
+
+    background: linear-gradient(to right,transparent,#818078);
+    margin-right: 2%;
+
+}
+.titre::after{
+    
+    background: linear-gradient(to left,transparent,#818078);
+    margin-left: 2%;
+ 
+}
+.texte-titre h1{
+    text-align: center;
+    font-family: 'GreatVibes';
+    font-size: 72px;
+    font-weight: 400;
+    text-shadow: 2px 2px 5px black;
+    color: #f9efec; 
+}
+
+.contener-tpresent{
+    bottom: 15px;
+    position: absolute;
+    background-color: hsla(13, 50%, 95%, 65%);
+    box-shadow: 0 0 2px 1px hsla(13, 50%, 95%, 65%);
+    border-radius: 15px;
+    width: 66%;
+    padding: 25px;
+}
+
+.cacher{
+    left: 0;
+    transform: translateX(-105%);
+    transition-duration: 0.7s;
+}
+.cacher_open{
+    left: 50%;
+    transform: translateX(-50%);
+    transition-duration: 0.6s;
+}
+.text-info p{
+    font-family: 'Nunito', sans-serif;
+    font-size: clamp(16px, 2vw, 20px);
+    font-weight: bold;
+    color: hsl(354, 61%, 28%);
+    text-shadow: 0 0 16px hsla(13, 50%, 95%, 50%);
+    
+}
+.titre2{
+    font-family: 'RobotoSlab', serif;
+    font-size: clamp(24px, 3vw, 30px);
+    color: hsl(13, 46%, 22%);
+    text-shadow: 0 0 16px hsla(13, 50%, 95%, 50%);
+}
+
+.ordinateur, .non-mobile {
+    display: none;
+}
+
+@media screen and (min-width: 360px) {
+    .non-mobile {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #presentation {
+        height: calc(100vh - 100px);
+    }
+    .ordinateur {
+        display: block;
+    }
+    .contener-tpresent{
+        bottom: 35%;
+    }
+}

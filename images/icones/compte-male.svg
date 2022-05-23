@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100"
+   height="100"
+   viewBox="0 0 26.458332 26.458334"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   sodipodi:docname="compte-male.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="3.2806659"
+     inkscape:cx="40.692958"
+     inkscape:cy="58.219887"
+     inkscape:window-width="1600"
+     inkscape:window-height="837"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     width="100px" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path51"
+       style="fill:#f8edea;stroke-width:1;fill-opacity:1"
+       d="M 13.273519,7.3926157e-5 A 13.229291,13.229049 0 0 0 3.031771e-4,13.139724 13.229291,13.229049 0 0 0 13.095233,26.457655 a 13.229291,13.229049 0 0 0 13.3621,-13.05025 l 0.001,-0.178282 A 13.229291,13.229049 0 0 0 13.273519,7.3926157e-5 Z M 13.269419,1.3229787 A 11.90636,11.906143 0 0 1 25.135472,13.229123 l -0.001,0.160712 A 11.90636,11.906143 0 0 1 22.03689,21.230113 9.9219677,9.9217862 0 0 0 13.262667,15.874932 9.9219677,9.9217862 0 0 0 4.4217801,21.240448 11.90636,11.906143 0 0 1 1.3232323,13.149026 11.90636,11.906143 0 0 1 13.269385,1.3229787 Z M 10.583253,2.6458839 9.2603237,5.9531453 5.2915367,6.6145984 V 7.9375026 H 8.648469 A 4.6302518,4.6301671 0 0 0 8.59886,8.5679499 4.6302518,4.6301671 0 0 0 13.182085,13.229123 4.6302518,4.6301671 0 0 0 17.858847,8.6614831 l 5.15e-4,-0.062529 A 4.6302518,4.6301671 0 0 0 17.811302,7.937501 h 3.355381 V 6.6145964 L 17.197897,5.9531433 15.874967,2.6458819 Z" />
+    <path
+       style="fill:none;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 10.583334,2.6458332 5.291667,-2e-7 1.322915,3.3072919 3.96875,1.3229167 H 5.2916666 l 3.96875,-1.3229167 z"
+       id="path5820" />
+  </g>
+</svg>

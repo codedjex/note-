@@ -1,0 +1,87 @@
+@import "ressources.css";
+
+#contenu {
+    position: relative;
+    overflow: hidden;
+}
+
+#tableau-categories {
+    top: 0;
+    left: 0;
+
+    transition: 1250ms;
+}
+
+#grille {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(100%);
+
+    padding: 50px 3.5%;
+
+    width: 100%;
+
+    transition: 1250ms;
+}
+
+#grille > div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    margin: auto;
+
+    width: min(100%, 1300px);
+}
+
+#grille a {
+    flex: none;
+
+    height: 380px;
+    width: min(100%, 300px);
+
+    padding: 20px;
+
+    cursor: default;
+}
+
+#grille figure {
+    position: relative;
+
+    background-position: center;
+    background-size: cover;
+    border-radius: 3px;
+    
+    height: 100%;
+    width: 100%;
+
+    cursor: pointer;
+
+    transition: 750ms;
+}
+
+#grille figure:hover {
+    box-shadow: 0 0 15px hsla(13, 50%, 95%, 0.125);
+
+    transform: scale(101%);
+}
+
+#grille figcaption {
+    display: flex;
+    justify-content: center;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+#grille p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+    color: hsl(13, 50%, 95%);
+    text-shadow: 0 0 15px hsl(24, 8%, 13%);
+
+    padding: 15px;
+}

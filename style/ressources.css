@@ -1,0 +1,104 @@
+* {
+    color: inherit;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1em;
+
+    text-decoration: none;
+    list-style-type: none;
+
+    background: none;
+    appearance: none;
+    box-sizing: border-box;
+
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(13, 50%, 95%);
+    background-image: url(../images/fond_instruments.svg);
+    min-width: 280px;
+}
+
+::selection {
+    background-color: hsla(261, 73%, 49%, 0.75);
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url("../fonts/Nunito-Regular.ttf");
+}
+@font-face {
+    font-family: 'RobotoSlab';
+    src: url("../fonts/RobotoSlab-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'NanumMyeongjo';
+    src: url('../fonts/NanumMyeongjo-Regular.ttf');
+}
+@font-face {
+    font-family: 'GreatVibes';
+    src: url('../fonts/GreatVibes-Regular.ttf');
+}
+
+@keyframes tremblement {
+    from {
+        transform: rotate(0deg);
+    }
+    10% {
+        transform: rotate(-5deg);
+    }
+    20% {
+        transform: rotate(4deg);
+    }
+    30% {
+        transform: rotate(-4deg);
+    }
+    40% {
+        transform: rotate(3deg);
+    }
+    50% {
+        transform: rotate(-3deg);
+    }
+    60% {
+        transform: rotate(2deg);
+    }
+    70% {
+        transform: rotate(-2deg);
+    }
+    80% {
+        transform: rotate(1deg);
+    }
+    90% {
+        transform: rotate(-1deg);
+    }
+    to  {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes attente {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes fondue {
+    from {
+        opacity: 0;
+        filter: grayscale(100%);
+    }
+    33.33% {
+        opacity: 1;
+    }
+    to {
+        filter: grayscale(0%);
+    }
+}
